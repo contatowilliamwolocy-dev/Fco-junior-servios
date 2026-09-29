@@ -69,6 +69,42 @@ body {
     padding: 8px 0;
     text-shadow: 0 0 10px rgba(255, 255, 255, 1);
 }
+/* Botão Estilo WhatsApp */
+.botao-whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366; /* Verde oficial do WhatsApp */
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 28px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-family: 'PT Serif', serif;
+}
+
+/* Espaçamento do ícone */
+.botao-whatsapp i {
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+/* Efeito ao passar o mouse por cima */
+.botao-whatsapp:hover {
+    background-color: #20ba5a; /* Verde um pouco mais escuro */
+    transform: translateY(-2px); /* O botão sobe de leve */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* A sombra aumenta */
+}
+
+/* Efeito ao clicar */
+.botao-whatsapp:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 @media (max-width:800px) {
     .container {
